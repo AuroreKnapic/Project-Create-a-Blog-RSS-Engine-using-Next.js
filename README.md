@@ -1,3 +1,9 @@
+The goal is to build an app where people can view the latest posts from a list of blogs we selected, people can also add a new blog.
+store the data using Airtable as backend  and to approve the blogs proposed by our users.
+The list of blog posts will be fetched from the blog posts RSS/Atom feeds.
+And here comes into play one feature of Next.js that will be at the core of our app: the home page and the form pages will be static pages, generated at build time, but at the same time our API will be handled by the server-side code.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
